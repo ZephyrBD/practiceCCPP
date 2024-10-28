@@ -1,4 +1,5 @@
-# ZephyrBD的C和CPP的练习仓库
+# C和CPP的练习仓库
+**Powered by ZephyrBD**
 
 写程序中遇到一些有意思的练习题，我会补充一下，然后提交到这个仓库
 
