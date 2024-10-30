@@ -18,6 +18,9 @@
 4. prc33. #P8772. [蓝桥杯 2022 省 A] 求和
 5. prc34. #P6625. [省选联考 2020 B 卷] 卡牌游戏
 6. prc35. #P5638. 【CSGRound2】光骓者的荣耀
+7. prc36. #P6568. [NOI Online #3 提高组] 水壶
+8. prc37. #P3078. [USACO13MAR] Poker Hands S
+9. prc38. #P1719. 最大加权矩形
 
 **注意：CPP的程序我编译的exe版本脱离IDE运行时遇到了**
 
