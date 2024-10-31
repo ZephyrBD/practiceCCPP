@@ -12,11 +12,10 @@ int main()
 	int rnum[n] = {0};
 	int x = 0;
 	int len = 0;
-	rnum[0] = num = (rand() % 1000) + 1;
+	len = sizeof(rnum)/sizeof(rnum[0]);
 	while(x<n)
 	{
 		num = (rand() % 100) + 1;
-		len = sizeof(rnum)/sizeof(rnum[0]);
 		if(search(rnum,num,len))
 		{
 			rnum[x] = num;
@@ -47,7 +46,7 @@ int search(int rnum[],int num,int len)
 	int key = 1;
 	for(int i=0;i<len;i++){
 		if(rnum[i] == num){
-			key = i;
+			key = 0;
 		}
 	}
 	return key;
