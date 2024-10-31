@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 int main()
 {
 	int n;
@@ -14,13 +14,19 @@ int main()
 	{
 		upper *= 10;
 	}
+    int x,sum,num;
 	for(int i=lower;i<=upper;i++)
 	{
-		int sum = 0;
-		int num = i;
+		sum = 0;
+		num = i;
 		while (num > 0) 
 		{
-			sum += pow(num % 10,n);
+            x = 1;
+            for(int j = 0;j<n;j++)
+            {
+                x *= num%10;
+            }
+			sum += x;
 			num /= 10;
 		}
 		if (sum == i) 
