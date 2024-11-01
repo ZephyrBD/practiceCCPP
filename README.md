@@ -13,11 +13,11 @@ const int N = ;//定义一个常数用来确定数组
 
 int main()
 {
-    //用于C++中优化输入输出速度
-    //关闭C++标准库中的iostream（即cin、cout等）
-    //和C标准库中的stdio（即scanf、printf等）之间的同步
+        //用于C++中优化输入输出速度
+        //关闭C++标准库中的iostream（即cin、cout等）
+        //和C标准库中的stdio（即scanf、printf等）之间的同步
 	ios::sync_with_stdio(0);
-    //解除cin和cout之间的绑定
+        //解除cin和cout之间的绑定
 	cin.tie(0),cout.tie(0);
 	
 	return 0;
