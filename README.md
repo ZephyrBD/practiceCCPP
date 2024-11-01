@@ -12,6 +12,7 @@
 5. XOGame(Based on Qt)
 
 ## Hydro训练
+### 前缀和与差分
 1. prc30.[深进1.例1]求区间和
 2. prc31. #P2004. 领地选择
 3. prc32. #P3397. 地毯
@@ -24,6 +25,8 @@
 10. prc39. #P9094. [PA2020] Mieszanie kolorów
 11. prc40. #P1969. [NOIP2013 提高组] 积木大赛
 12. prc41. #P2280. [HNOI2003] 激光炸弹
+13. prc42. #P2367. 语文成绩
+14. prc43. #P1672. [USACO05FEB] Feed Accounting S
 
 ## PTA训练
 1. 7-1 计算阶乘和
